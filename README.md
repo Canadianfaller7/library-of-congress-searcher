@@ -56,11 +56,11 @@ The search results page (`search-results.html`) should have and do the following
 
 The following image demonstrates the homepage's appearance and functionality:
 
-![The home page shows a search bar with the ability to select a format from a dropdown menu.](./Images/01-homepage.png)
+![The home page shows a search bar with the ability to select a format from a dropdown menu.](./assets/Images/01-homepage.png)
 
 The following image demonstrates the search results page's appearance and functionality:
 
-![The search results page displays results from a search conducted in the form on the left side of the page.](./Images/02-search-results-page.png)
+![The search results page displays results from a search conducted in the form on the left side of the page.](./assets/Images/02-search-results-page.png)
 
 ---
 
