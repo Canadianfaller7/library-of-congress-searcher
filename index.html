@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <main class="row">
+        <section id="search-section" class="col-3">
+            <div id="search-box">
+                <h1>Library of Congress Search Engine</h1>
+                <input type="text" id="user-input">
+                <select id="select">
+                    <option value="search">Select an option</option>
+                    <option value="maps">Maps</option>
+                    <option value="audio">Audio Recordings</option>
+                    <option value="photos">Photos</option>
+                    <option value="manuscripts">Manuscripts</option>
+                    <option value="newspapers">Newspapers</option>
+                </select>
+                <button class="btn btn-success" type="submit" id="search">Search!</button>
+                <a class="btn btn-danger">Go Back</a>
+            </div>
+        </section>
+
+        <section id='results-section' class="col-9">
+            <h2>Search Goes Here!</h2>
+            <div id="result-container">
+
+            </div>
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src='./assets/js/script.js'></script>
+</body>
+</html>
