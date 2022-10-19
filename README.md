@@ -56,11 +56,19 @@ The search results page (`search-results.html`) should have and do the following
 
 The following image demonstrates the homepage's appearance and functionality:
 
+<<<<<<< HEAD
 ![The home page shows a search bar with the ability to select a format from a dropdown menu.](./Images/01-homepage.png)
 
 The following image demonstrates the search results page's appearance and functionality:
 
 ![The search results page displays results from a search conducted in the form on the left side of the page.](./Images/02-search-results-page.png)
+=======
+![The home page shows a search bar with the ability to select a format from a dropdown menu.](./assets/Images/01-homepage.png)
+
+The following image demonstrates the search results page's appearance and functionality:
+
+![The search results page displays results from a search conducted in the form on the left side of the page.](./assets/Images/02-search-results-page.png)
+>>>>>>> 9fadd54b9deaa580f5d11026db96cbf7ad02aef1
 
 ---
 
@@ -73,4 +81,8 @@ Will every result have the same data? If not, how will we handle printing it to 
 * How can we build this application using our knowledge in Git collaboration?
 
 ---
+<<<<<<< HEAD
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+=======
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+>>>>>>> 9fadd54b9deaa580f5d11026db96cbf7ad02aef1
