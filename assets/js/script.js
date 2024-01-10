@@ -1,6 +1,5 @@
 
 const fetchData = () =>{
-    console.log()
     // here we are saving using input value into a var
     const userInput = $('#user-input').val(); 
     // here we are finding what option the user selected and getting its value
