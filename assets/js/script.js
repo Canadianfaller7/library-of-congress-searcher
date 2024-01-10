@@ -11,7 +11,7 @@ const fetchData = () =>{
     fetch(query)
     // then doing a promise to get the response
     .then((response) =>{
-        console.log(`response => ${response}`);
+        console.log(`response => ${response.json()}`);
         // returning the response after reading and parsing it
         return response.json();
     })
